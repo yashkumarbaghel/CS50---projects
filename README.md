@@ -24,7 +24,6 @@ While building the game, I ran into a major problem: my **Jump** and my **Gravit
    * Now, the cat only stops falling when it "feels" the brown color. 
    * This fixed the jump conflict and made the gravity work smoothly everywhere.
 
-* **The Fix:**  Implemented a **Colour-Sensing "Ground" Detection**. The Sprite now uses a 'forever' loop to constantly monitor contact with "Brown" ground colour, applying a -5 Y-axis force until contact is confirmed, 'only when' not touching the ground.
 
 ### 3. Collision and AI Logic
 * **Chase Mechanics:** The Bat is programmed to constantly "Slide" towards Tom's coordinates, creating a persistent threat.

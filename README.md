@@ -13,6 +13,17 @@ This project is my first exploration into game mechanics and logic using scratch
 
 * **Gravity Debugging** 
 **(First Major Bug):** Conflict with the Jump command and the Gravity constraint caused stuttering.
+### Solving the Jump and Gravity Conflict
+
+While building the game, I ran into a major problem: my **Jump** and my **Gravity** were fighting each other. 
+
+1. **The First Problem:** When I tried to jump, the gravity logic would pull the cat down too fast, making the movement look glitchy.
+2. **The First Fix (The Timer):** I tried to solve this by adding a **2-second timer**. I thought this would give the cat time to finish the jump before gravity started again.
+3. **The New Conflict:** The timer created a new bug. If the cat was in the air or outside the normal area, it would "freeze" or delay for 2 seconds before gravity worked. It made the game feel slow and broken.
+4. **The Final Solution:** I deleted the timer and changed the logic entirely. Instead of using a timer, I made the cat **constantly check the ground color (brown)**. 
+   * Now, the cat only stops falling when it "feels" the brown color. 
+   * This fixed the jump conflict and made the gravity work smoothly everywhere.
+
 * **The Fix:**  Implemented a **Colour-Sensing "Ground" Detection**. The Sprite now uses a 'forever' loop to constantly monitor contact with "Brown" ground colour, applying a -5 Y-axis force until contact is confirmed, 'only when' not touching the ground.
 
 ### 3. Collision and AI Logic

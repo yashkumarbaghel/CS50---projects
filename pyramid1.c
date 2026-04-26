@@ -32,7 +32,7 @@ void width( int width )
 }
 }
 
-// print space
+// print ' '
 void space(int space)
 {
 for( int i = 0; i < space; i++ )

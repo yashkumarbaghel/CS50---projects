@@ -3,7 +3,7 @@ Welcome to my foundational computer science portfolio. I am building these proje
 
 ## Project Navigation
 * [**02: Mario Pyramids (C Logic)**](./02-Mario-Pyramids) - Mastered nested loops and abstraction.
-* [**01: Sprite Animation(Scratch)**](./01-Scratch-Sprite-Projects) - Exploring initial computational logic and gravity physics.
+* [**01: Sprite Animation(Scratch)**](./01-Scratch-Sprite-Project) - Exploring initial computational logic and gravity physics.
 
 ## Career Focus
 Aspiring **Cloud Security Engineer**. My goal is to apply these algorithmic foundations to secure infrastructure and automated data validation.
